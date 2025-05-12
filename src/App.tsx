@@ -4,7 +4,7 @@ import './App.css'; // App 특정 CSS (필요시)
 import profileImage from './assets/profile-placeholder.png'; // 프로필 이미지 예시 (src/assets 폴더에 이미지 저장)
 
 // 아이콘 사용을 위해 react-icons 설치: npm install react-icons
-import { FaGithub, FaBehance, FaInstagram, FaLinkedin, FaEnvelope, FaLink } from 'react-icons/fa';
+import { FaGithub, FaBehance, FaInstagram, FaEnvelope, FaLink } from 'react-icons/fa';
 import { SiNotion } from 'react-icons/si';
 
 // src/assets 폴더를 만들고 그 안에 profile-placeholder.png 같은 이미지를 넣어주세요.
