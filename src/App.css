@@ -1,0 +1,4 @@
+/* src/App.css */
+/* 특별히 App.tsx에만 적용될 커스텀 CSS가 있다면 여기에 작성합니다. */
+/* 예: .custom-hover-effect span:hover { color: var(--branding-color); } */
+/* 하지만 이번 예제에서는 Tailwind의 hover 유틸리티를 사용합니다. */

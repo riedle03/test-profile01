@@ -1,0 +1,18 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-100 text-gray-800 antialiased;
+  font-family: 'Pretendard', sans-serif; /* tailwind.config.js와 일치 */
+}
+
+/* 필요하다면 추가적인 전역 스타일 */
+.section-title {
+  @apply text-2xl font-bold text-gray-700 mb-4 border-b-2 border-branding-color pb-2;
+}
+
+.icon-link {
+  @apply text-gray-600 hover:text-branding-color transition-colors duration-200;
+}
